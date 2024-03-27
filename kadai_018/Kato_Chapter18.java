@@ -16,10 +16,7 @@ abstract public class Kato_Chapter18 {
 	// 各クラスでの特有の情報を出力する抽象メソッド
 	public abstract void eachIntroduce();
 
-	// 名前を設定するメソッド
-	public void setGivenName(String givenName) {
-		this.givenName = givenName;
-	}
+
 
 	public void execIntroduce() {
 		commonIntroduce();
